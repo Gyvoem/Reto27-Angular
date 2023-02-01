@@ -1,0 +1,51 @@
+<section class="complete text-center">
+  <section class="container">
+    <h1 id="titulo">Reto 27</h1>
+    <section class="my-4">
+      <input type="number" [(ngModel)]="n1" placeholder="Ingrese un numero" type="number">
+    </section>
+    <section class="my-4">
+      <input type="number" [(ngModel)]="n2" placeholder="Ingrese otro numero" type="number">
+    </section>
+    
+   
+   <select [(ngModel)]="op">
+     <option value="+">SUMAR</option>
+     <option value="-">RESTAR</option>
+     <option value="*">MULTIPICAR</option>
+     <option value="/">DIVIDIR</option>
+   </select>
+   
+   <button class="bg-danger" id="btnEnviar" (click)="Calcular()">Calcular</button>
+   <section class="my-4">
+    <p class="resp">{{r}}</p>
+   </section>
+   
+
+  </section>
+ </section>
+
+
+
+<!-- CALCULADORA DOS -->
+
+ <!-- <div class="container">
+
+  
+    <form>
+      Numero 1: <input type="number" [(ngModel)]="numero1" name="numero1"><br><br>
+  
+      Numero 2: <input type="number" [(ngModel)]="numero2" name="numero2"><br><br>
+      
+      <input type="submit" value="sumar" (click)="sumar()" class="btn btn-outline-primary">
+      <input type="submit" value="restar" (click)="restar()" class="btn btn-outline-primary">
+      <input type="submit" value="multiplicar" (click)="multiplicar()" class="btn btn-outline-primary">
+      <input type="submit" value="dividir" (click)="dividir()" class="btn btn-outline-primary">
+  
+    </form>
+  
+    <br>
+  
+    <p>Resultado: {{resultado}}</p>
+  
+  </div> -->

@@ -1,0 +1,13 @@
+#titulo{
+    background-color: rgb(194, 206, 206);
+    border-radius: 15px;
+}
+
+.complete{
+    width: 400px;
+    background-color: rgb(85, 87, 86);
+}
+
+.resp{
+    color: beige;
+}
